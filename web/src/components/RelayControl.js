@@ -10,7 +10,7 @@ const RelayControl = () => {
     relay2: { active: false, remainingSeconds: 0 }
   });
 
-  const ESP32_IP = '192.168.1.xxx'; // แก้ไขเป็น IP ของ ESP32
+  const ESP32_IP = '192.168.68.67'; // แก้ไขเป็น IP ของ ESP32
 
   // แปลงวินาทีเป็นรูปแบบ MM:SS
   const formatTime = (seconds) => {
